@@ -1,4 +1,5 @@
 FROM blang/latex
+MAINTAINER Roman Decker <roman dot decker at gmail dot com>
 
 ADD latexmk.pl /usr/bin/latexmk
 RUN chmod +x /usr/bin/latexmk
